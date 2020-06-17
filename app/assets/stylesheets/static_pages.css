@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+  font-family: 'Noto Sans JP', Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 600px;
+}
+
+h1 {
+  font-size: 5em;
+  color: hsl(0, 100%, 40%);
+  font-weight: bold;
+  opacity: .5;
+}
+
+input {
+  border: none;
+}
+
+span {
+  height: 50%;
+  width: 30px;
+  text-align: center;
+}
+
+
+.check-box {
+  border: solid hsl(0, 0%, 90%) 2px;
+}
+
+.check-mark {
+  font-size: 1.4em;
+  color: skyblue;
+  display: none;
+}
+
+.cancel {
+  color: red;
+  display: none;
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.faded-font {
+  color: hsl(0, 0%, 85%);
+}
+
+::placeholder {
+  font-style: italic;
+  color: hsl(0, 0%, 80%);
+}
+
+.end,
+.task {
+  border-top: solid hsl(0, 0%, 90%) 1px;
+  background-color: white;
+  height: 60px;
+}
+
+.end {
+  height: 45px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.end .btn {
+  height: 100%;
+}
