@@ -4,8 +4,8 @@ $.ajaxSetup({
   }
 });
 
-let indexTasks = function (successCB, errorCB) {
-  let request = {
+var indexTasks = function (successCB, errorCB) {
+  var request = {
     type: 'GET',
     url: 'api/tasks?api_key=1',
     success: successCB,
@@ -16,8 +16,8 @@ let indexTasks = function (successCB, errorCB) {
 };
 
 
-let postTask = function (content, successCB, errorCB) {
-  let request = {
+var postTask = function (content, successCB, errorCB) {
+  var request = {
     type: 'POST',
     url: 'api/tasks?api_key=1',
     data: {
