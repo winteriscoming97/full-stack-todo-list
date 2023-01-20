@@ -7,13 +7,13 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 7.0.4'
 
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -34,11 +34,11 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'actionpack', '~> 5.2.4.3'
+gem 'actionpack', '~> 7.0.4.1'
 
-gem 'activesupport', '~> 5.2.4.3'
+gem 'activesupport', '~> 7.0.4.1'
 
-gem 'actionview', '~> 5.2.4.2'
+gem 'actionview', '~> 7.0.4.1'
 
 
 group :production do
